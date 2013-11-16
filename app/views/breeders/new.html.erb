@@ -1,0 +1,9 @@
+<h2>
+	<%= simple_form_for @breeders, :url => breeders_path do |f|%>
+		<%= f.input :breed %>
+		<%= f.input :about_me %>
+		<%= f.input :age %>
+
+		<%= submit_tag 'Submit' %>
+	<% end %>
+</h2>
