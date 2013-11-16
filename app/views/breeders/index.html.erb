@@ -1,0 +1,22 @@
+
+<% @breeders.each do |breeder| %>
+<div class="span4 boxy text-left">
+	
+	<h2>
+		Breed: <%= breeder.breed %>
+		
+		<br/>
+	
+	</h2>
+	<h3 class="h3-custom-font">
+		Location: <%= breeder.about_me %>
+		<br/>
+
+		Age: <%= breeder.age %>
+		<br/>
+	</h3>
+
+</div>
+
+
+<% end %>
