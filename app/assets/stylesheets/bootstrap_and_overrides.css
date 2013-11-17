@@ -27,13 +27,13 @@ body {
 	font-size: 64px;
 
 	color: white;
+  line-height: 70px;
 }
 
 h2 {
 	font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,san-serif;
 	font-weight: 200;
 	font-size: 36px;
-
 	color: white;
 }
 
@@ -42,5 +42,12 @@ h2 {
   font-weight: 200;
   font-size: 24px;
 
+  color: white;
+}
+
+label {
+font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,san-serif;
+  font-weight: 200;
+  font-size: 18px;
   color: white;
 }

@@ -1,9 +1,18 @@
-<h2>
-	<%= simple_form_for @breeders, :url => breeders_path do |f|%>
-		<%= f.input :breed %>
-		<%= f.input :about_me %>
-		<%= f.input :age %>
+<div class="span6 offset4 text-center boxy">
+	<h1 class="h1-custom-font">
+		Add Puppy
+	</h1>
+	<br/>
 
-		<%= submit_tag 'Submit' %>
+	<%= simple_form_for @breeders, :url => breeders_path do |f|%>
+		
+		<%= f.input :breed, :label => 'Breed', :placeholder => 'Golden Retriever, etc' %>
+		<br/>
+		<%= f.input :about_me, :label => 'Location', :placeholder => 'city, state' %>
+		<br/>
+		<%= f.input :age, :label => 'Age', :placeholder => 'years' %>
+		<br/>
+		<%= submit_tag 'Submit', :class => 'btn btn-info btn-large' %>
+	
 	<% end %>
-</h2>
+</div>
