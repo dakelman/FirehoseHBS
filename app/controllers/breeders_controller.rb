@@ -21,7 +21,7 @@ class BreedersController < ApplicationController
 	private
 
 	def breeders_params 
-		params.require(:breeders).permit(:breed, :about_me, :age)
+		params.require(:breeders).permit(:breed, :about_me, :age, :image)
 	end
 
 end
